@@ -11,7 +11,7 @@
 - `2` make it bigger
 - `s` save the current frame to a bitmap under the `/img` folder
 - `S` save the current frame to a PDF under the `/pdf` folder
-- keys `z` and `x` toggle the power of atraction or repulsion on the red ball
+- `z` - `x` toggle the power of atraction or repulsion on the red ball
 - `l` (switch) to draw (or no to) the lines
 - `L` clear all the lines
 - `a` reduce line weight
@@ -21,5 +21,5 @@
 - `h` regenerate colors and weights
 - `b` lighten
 - `k` darken
-- `,` and `.` toggle curve tension
+- `,` - `.` toggle curve tension
 - `q` exit
