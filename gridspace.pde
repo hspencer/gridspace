@@ -1,4 +1,4 @@
-import processing.opengl.*;
+
 import processing.pdf.*;
 
 PFont font;
@@ -6,9 +6,9 @@ String verb = "";
 
 ArrayList l;
 PImage pal;
-int ancho = 1024; // screen.width;
-int alto  = 768;  // screen.height;
-float margen = 25;
+int ancho = 1440; // screen.width;
+int alto  = 900;  // screen.height;
+float margen = 100;
 float gridSpacer = 10;
 float cw = gridSpacer/3;
 float tension = 0;
@@ -23,14 +23,18 @@ boolean dibujar = true;
 boolean pdf = false;
 int pag = 0;
 
+
+color fondo = color(250);
+color grilla = color(50, 50);
+
 void setup(){
-  size(ancho, alto, OPENGL);  
+  size(ancho, alto);  
   createGrid();
   //smooth();
   noCursor();
   l = new ArrayList();
   pal = loadImage("pal.png");
-  //strokeCap(SQUARE);
+  strokeCap(SQUARE);
   font = createFont("Lucida Grande", 11);
   textFont(font, 11);
 }

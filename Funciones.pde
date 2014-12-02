@@ -7,7 +7,7 @@ float velGrilla = 0.03;        // velocidad de retorno al origen - NOISE
 float power = 2.5;
 
 public void todo(){
-  background(0);
+  background(fondo);
   if(mousePressed){
     deformaGrilla(Repele);
   }
@@ -41,7 +41,7 @@ void dibujaPuntos(){
 }
 
 void dibujaGrilla(){
-  stroke(255, 100);
+  stroke(grilla);
   strokeWeight(1);
   noFill();
 
@@ -222,7 +222,7 @@ void simplificar(){
     for(int i = 0; i < l.size(); i++){
       Linea lin = (Linea) l.get(i);
       lin.grosor = 1;
-      lin.c = color(255);
+      lin.c = color(50);
       lin.alfa = 225;
       lin.grosor = 0.25;
     }
