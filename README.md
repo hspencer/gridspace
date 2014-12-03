@@ -1,5 +1,5 @@
 # GridSpace
-![GridSpace Example](/data.example.png)               
+![GridSpace Example](data/example.png)               
 2010 - Under an Artistic License 2.0
 
 ## Commands
@@ -27,4 +27,4 @@
 - `←` - `→` - `↑` - `↓` move the entire grid in `mouseX` units
 
 Note: colors are acquired randomly from this palette
-![color palette](/data.pal.png) which can be found in the `/data` folder. By editing this file, you'll modify line colors.
+![color palette](data/pal.png) which can be found in the `/data` folder. By editing this file, you'll modify line colors.
