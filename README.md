@@ -1,4 +1,5 @@
-# GridSpace                   
+# GridSpace
+![/data.example.png](GridSpace Example)                
 2010 - Under an Artistic License 2.0
 
 ## Commands
@@ -24,3 +25,6 @@
 - `,` `.` toggle curve tension
 - `q` exit
 - `←` - `→` - `↑` - `↓` move the entire grid in `mouseX` units
+
+Note: colors are acquired randomly from this palette
+![/data.pal.png](color palette) which can be found in the `/data` folder. By editing this file, you'll modify line colors.
