@@ -13,11 +13,12 @@
 - `s` save the current frame to a bitmap under the `/img` folder
 - `S` save the current frame to a PDF under the `/pdf` folder
 - `z` - `x` toggle the power of attraction or repulsion on the red ball
-- `l` (switch) to draw (or no to) the lines
+- `l` (switch) to draw (or no to draw) the lines
 - `L` clear all the lines
 - `a` reduce line weight
 - `e` increase line weight
 - `c` remove colors
+- `C` invert light/dark foreground/background
 - `v` randomize colors
 - `h` regenerate transparencies and weights
 - `b` lighten
@@ -25,6 +26,8 @@
 - `,` `.` toggle curve tension
 - `q` exit
 - `←` - `→` - `↑` - `↓` move the entire grid in `mouseX` units
+
+I'm totally aware that these key commands are a little bit awkward. Please bare it with me.
 
 Note: colors are acquired randomly from this palette
 ![color palette](data/pal.png) which can be found in the `/data` folder. By editing this file, you'll modify line colors.
