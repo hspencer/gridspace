@@ -1,6 +1,7 @@
 # GridSpace
+v1.0.0
 ![GridSpace Example](data/example.png)               
-2010 - Under an Artistic License 2.0
+2008 - Under an Artistic License 2.0
 
 ## Commands
 - `SPACE` create a new line
